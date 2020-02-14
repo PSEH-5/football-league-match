@@ -1,0 +1,13 @@
+applications:
+  - name : football-league-match
+    memory: 1GB
+    buildpack: java_beta
+    path: ../target/football-league-match-R1-SNAPHOT.jar
+    env:
+      //detaisl of env
+    services:
+      - config-server
+      - external-database
+      - monitoring
+      - logging
+      - external-proxy

@@ -1,0 +1,6 @@
+CREATE SCHEMA TEST;
+
+CREATE TABLE TEST.Country(
+country_id NUMBER(5) NOT NULL,
+country_name VARCHAR2(50)
+)
