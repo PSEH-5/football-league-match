@@ -1,1 +1,5 @@
 #default yml
+spring:
+  server:
+    port:8080
+  path: /api/footballleaguematch
